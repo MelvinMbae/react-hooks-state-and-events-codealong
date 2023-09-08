@@ -4,11 +4,11 @@ function Toggle() {
 
   const [isOn, setIsOn] = useState(false)
 
-  // const handleClick = () => setIsOn((isOn) => !isOn)
+  const handleClick = () => setIsOn((isOn) => !isOn)
 
-  function handleClick() {
-    setIsOn((isOn) => !isOn)
-  }
+  // function handleClick() {
+  //   setIsOn((isOn) => !isOn)
+  // }
 
   const color = isOn ? "red" : "white";
 
